@@ -1,0 +1,9 @@
+{
+  "name": "Librosa Sound Organiser",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2.5.5": {}
+  },
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y ffmpeg libsndfile1 && pip install librosa matplotlib numpy pandas jupyter"
+}
+
