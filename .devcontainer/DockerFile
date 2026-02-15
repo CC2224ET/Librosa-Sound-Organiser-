@@ -12,4 +12,7 @@ RUN pip install --no-cache-dir \
     pandas \
     jupyter \
     ipykernel \
-    scikit-learn
+    scikit-learn \
+    seaborn \
+    tqdm
+
