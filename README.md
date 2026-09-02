@@ -1,6 +1,6 @@
 # Environmental Audio Classifier 
 
-The goal of this project is to build an audio classification system from scratch without relying on Deep Learning/Neural Networks. By manually engineering mathematical representations of audio waves (timbre, pitch, and temporal variance), this project explores how traditional Machine Learning algorithms interpret complex, overlapping environmental sounds.
+The goal of this project is to build an audio classification system from scratch without relying on Deep Learning/Neural Networks. By representing audio as timbre, pitch, and temporal variance, this project explores how traditional Machine Learning algorithms interpret complex, overlapping environmental sounds.
 
 This project uses the ESC-50 Dataset (https://github.com/karolpiczak/ESC-50), a labeled collection of 2,000 environmental audio recordings (5 seconds long, 50 distinct classes). Categories range from animal sounds ("Dog", "Crickets") to mechanical noises ("Chainsaw", "Helicopter").
 
